@@ -81,15 +81,23 @@ class ColumnCleaning:
         general_column_dict, med_exam_column_dict = self.create_new_column_dictionary(combined_df, columns) 
         combined_df = self.apply_general_column_cleaning(combined_df, general_column_dict)
         combined_df = self.apply_med_exam_column_cleaning(combined_df, med_exam_column_dict)
+        columns = combined_df.columns.tolist()
+        if self.target_folder == "psycho_eval_json":
+            missing_columns = [col for col in column_order if col not in columns]
+            if missing_columns:
+                # Handle missing columns, for example, by setting them to None
+                for col in missing_columns:
+                    combined_df[col] = None        
         combined_df = combined_df[column_order] 
         
-        # Create a separate output folder for each category
-        category_output_folder = os.path.join(self.output_csv_folder, self.target_folder)
-        if not os.path.exists(category_output_folder):
-            os.makedirs(category_output_folder)
+        # Create an csv_output_folder
+        if not os.path.exists(self.output_csv_folder):
+            os.makedirs(self.output_csv_folder)
 
         # Output the combined data to a CSV file in the respective category folder
-        combined_csv_path = os.path.join(category_output_folder, f"combined_data_{self.target_folder}.csv")
+        csv_filename = f"combined_data_{self.target_folder}.csv"
+        combined_csv_path = os.path.join(self.output_csv_folder, csv_filename)
         combined_df.to_csv(combined_csv_path, index=False)
-
+        
         print(f"Combined data for {self.target_folder} saved to {combined_csv_path}")
+        return combined_csv_path, csv_filename 
