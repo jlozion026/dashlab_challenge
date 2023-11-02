@@ -11,7 +11,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"D:\Shanen\Programming\dashlab_challenge\figma_frames\build\assets\frame2")
+ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\JOSHUA ZION OLANO\Desktop\build\assets\frame2")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -63,15 +63,15 @@ image_image_3 = PhotoImage(
     file=relative_to_assets("image_3.png"))
 image_3 = canvas.create_image(
     354.0,
-    309.0,
+    305.0,
     image=image_image_3
 )
 
 entry_image_1 = PhotoImage(
     file=relative_to_assets("entry_1.png"))
 entry_bg_1 = canvas.create_image(
-    354.0,
-    310.0,
+    353.5,
+    296.0,
     image=entry_image_1
 )
 entry_1 = Text(
@@ -81,10 +81,26 @@ entry_1 = Text(
     highlightthickness=0
 )
 entry_1.place(
-    x=80.0,
-    y=118.0,
-    width=548.0,
-    height=382.0
+    x=60.0,
+    y=103.0,
+    width=587.0,
+    height=384.0
+)
+
+button_image_1 = PhotoImage(
+    file=relative_to_assets("button_1.png"))
+button_1 = Button(
+    image=button_image_1,
+    borderwidth=0,
+    highlightthickness=0,
+    command=lambda: print("button_1 clicked"),
+    relief="flat"
+)
+button_1.place(
+    x=218.0,
+    y=489.0,
+    width=272.0,
+    height=48.0
 )
 window.resizable(False, False)
 window.mainloop()
