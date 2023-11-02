@@ -14,7 +14,7 @@ import shutil
 
 
 def show_generated_csv(window):
-    generate_csv_files()
+    # generate_csv_files()
     # Get the directory of the script
     script_dir = Path(__file__).resolve().parent
 
@@ -22,12 +22,12 @@ def show_generated_csv(window):
     OUTPUT_PATH = script_dir
     ASSETS_PATH = script_dir.parent / "tkinterdesign" / "build" / "assets" / "frame1"
     file_paths = [
-        "output_csv_folder\combined_data_hiv_cert_json.csv",
-        "output_csv_folder\combined_data_med_landbase_cert_json.csv",
-        "output_csv_folder\combined_data_med_seafarers_cert_json.csv",
-        "output_csv_folder\combined_data_med_landbase_exam_json.csv",
-        "output_csv_folder\combined_data_med_seafarers_exam_json.csv",
-        "output_csv_folder\combined_data_psycho_eval_json.csv"
+        "output_csv_folder\hiv_cert_db.csv",
+        "output_csv_folder\med_landbase_cert_db.csv",
+        "output_csv_folder\med_seafarers_cert_db.csv",
+        "output_csv_folder\med_landbase_exam_db.csv",
+        "output_csv_folder\med_seafarers_exam_db.csv",
+        "output_csv_folder\psycho_eval_db.csv"
     ]
     
     def relative_to_assets(path: str) -> Path:
@@ -99,7 +99,7 @@ def show_generated_csv(window):
 
         
     top_window = Toplevel(window)
-
+    top_window.title("Medical Form Analyzer")
     top_window.geometry("700x550")
     top_window.configure(bg = "#FFFFFF")
 

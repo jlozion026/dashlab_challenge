@@ -2,7 +2,7 @@ import os
 from dashlabs import ColumnCleaning
 
 
-def generate_csv_files():
+def generate_csv_files(entry_1):
     source_json_folder = 'output_json'
     target_csv_folder = "output_csv_folder"
 
@@ -65,7 +65,7 @@ def generate_csv_files():
                     "sleep disorder", "mental disorder", "eye problem","ear disorder", "nose or throat disorder",
                     "tuberculosis", "lung disorder", "high blood pressure", "heart disease", "rheumatic",
                     "diabetes","endocrine disorder", "cancer or tumor", "blood disorder", "stomach pain",
-                    "abdominal disorder", "gynaecological disorder", "bladder disorder", "back or joint injury",
+                    "abdominal disorder", "gynaecological disorder", "last menstrual period", "bladder disorder", "back or joint injury",
                     "familial disorder", "sexually transmitted disease", "tropical disease", "schistosomiasis",
                     "asthma", "allergies", "operation/s", "signed of as sick", "hospitalized", "declared unfit for work overseas",
                     "medical cert been restricted", "aware to any medical problem", "feel fit", "allergic medication", 
@@ -85,7 +85,7 @@ def generate_csv_files():
                     "psychological test", "additional test"
                     ]
                     summary = [
-                    "basic doh med exam", "additional test", "host med lab", "result"
+                    "basic doh med exam", "additional lab", "host med lab", "result"
                     ]
                     other_details = [
                     "date med exam", "date med expire", "med exam report number", "physician", "license number",
@@ -150,7 +150,7 @@ def generate_csv_files():
                         "perseverance","obedience","self discipline", "enthusiasm", "initiative"
                     ]
                     emotional_stability = [
-                        "can withstand boredom and work alone", "tolerance to stress pressures and inconveniences", "faces reality", "confidence", "relaxed" 
+                        "can withstand boredom and work alone", "tolerance to stress pressures and inconveniences", "faces reality"
                     ]
                     objectivity = [
                         "tough mindedness", "adaptability", "practicality"
@@ -176,5 +176,5 @@ def generate_csv_files():
                 # Handle the error when the folder is empty or encounters any other issues
                 print(f"Error processing folder {folder}: {str(e)}")                
 
-            combiner = ColumnCleaning(folder, target_csv_folder) 
+            combiner = ColumnCleaning(folder, target_csv_folder, entry_1) 
             combiner.combine_json_to_csv(column_order)
