@@ -107,7 +107,7 @@ This is our home screen, it has four buttons. Button for uploading a single file
    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/a2219acd-f76a-4093-bbba-3918b9200b1e)
 
 
-9 Choose the for upload forms folder. Do step 4 for processing document and see the printing status. Please be noted that the window screen will freeze when it starts to process the form. To see live status refrain from touching the window screen. 
+9. Choose the for upload forms folder. Do step 4 for processing document and see the printing status. Please be noted that the window screen will freeze when it starts to process the form. To see live status refrain from touching the window screen. 
 
    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/8db51f01-fcd4-4dc7-b1a7-abada764cfcb)
 
