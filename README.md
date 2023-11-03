@@ -25,7 +25,7 @@ A virtual environment is a way to isolate your project's dependencies. It's a go
    ```bash
    venv\Scripts\activate
    ```
-You'll now be working within the virtual environment, and you can deactivate it by running `deactivate` in the terminal.
+   You'll now be working within the virtual environment, and you can deactivate it by running `deactivate` in the terminal.
 
 ### Installing Dependencies
 This project uses a requirements.txt file to specify its dependencies. To install these dependencies, follow these steps:
@@ -36,3 +36,12 @@ This project uses a requirements.txt file to specify its dependencies. To instal
    ```bash
    pip install -r requirements.txt
    ```
+### Running the Project
+Now that you have set up the virtual environment and installed the dependencies, you can run the project.
+
+Simply run this in the root directory of your project.
+```bash
+python main.py
+```
+
+
