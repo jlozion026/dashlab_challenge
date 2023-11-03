@@ -63,6 +63,7 @@ This is our home screen, it has four buttons. Button for uploading a single file
 
    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/52adc895-e323-44af-ac74-dcf259415d2c)
 
+### Processing Document
 4. A new window will pop up that has an empty canvas and a process document button
    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/1258b17b-e1c9-4c5c-82fa-a619303df320)
 
@@ -95,4 +96,42 @@ This is our home screen, it has four buttons. Button for uploading a single file
     4. Text extraction successful to landbase_cert_3.jpg - The text extraction process from the document (landbase_cert_3.jpg) was successful.
 
     Processing Result
-    - Processing Successful! - The document processing was completed successfully, and the extracted text in json file is ready for insert 
+    - Processing Successful! - The document processing was completed successfully, and the extracted text in json file is ready for insert
+
+### Upload a Multiple File by uploading a folder
+7. In your file explorer add the files you want to process. For this example I will be uploading for upload forms folder with the following content
+   ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/a540bdd1-8e16-4776-a820-3e16066e3b3c) ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/a3e7dd4c-7487-4888-bf4f-08bb3ced7987).
+
+8. Click the `Upload a Folder` button
+
+   ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/a2219acd-f76a-4093-bbba-3918b9200b1e)
+
+
+9 Choose the for upload forms folder. Do step 4 for processing document and see the printing status. Please be noted that the window screen will freeze when it starts to process the form. To see live status refrain from touching the window screen. 
+
+   ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/8db51f01-fcd4-4dc7-b1a7-abada764cfcb)
+
+  HIV Certificate Processed 
+  
+  ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/71053f14-63de-4d6c-9dfb-97849749855e)
+
+  Medical Certificate for Landbase Overseas Workers
+  
+  ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/b0aa1df9-a85c-4e3d-bfe8-e2d4535aecd1)
+
+
+  Medical Certificate for Service at Sea
+  
+  ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/aa385b0e-92f8-4a00-903e-b46e3caa3b70)
+
+  Pyschological Evaluation Form
+  
+  ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/f15a4ea7-ea5f-4061-97d6-05af746ee302)
+
+  Medical Examination Report for Landbased Overseas Workers
+  
+  ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/c37789ed-d3e7-480e-8201-a68df7de2a15)
+
+
+
+
