@@ -70,4 +70,29 @@ This is our home screen, it has four buttons. Button for uploading a single file
 
    This button will start to process document
 
-6. 
+6. During the processing document, a print diagnostic will be shown.
+   ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/2ff4c622-e91a-4ce4-93b6-81f2b6190192)
+  
+   File Information
+   - File being processed: landbase_cert_3.jpg - Tells what file is under the process
+   - MIME Type: image/jpeg - Tells the content of the file which a jpeg file
+  
+   Document Classifier Status - This tells the status of Document Classifier 
+   - Document Classifier Status (1): running 
+   - Document Classifier Status (2): succeeded
+
+   Document Information 
+   - Document Type: Landbase Certificate - This tells that the Landbase Certificate is the model being processed
+   - Accuracy: 23.7% - Please note that the accuracy of 23.7% suggests that the document classifier may have identified the document type with a relatively low confidence level. Further review and validation may be required, depending on the specific use case.
+
+    Processing Steps
+    1. Processing Document... - The system initiated the processing of the document.
+
+    2. Request Successful - The initial request to process the document was successful.
+
+    3. Creating JSON file - The system generated a JSON file, possibly containing the extracted information.
+
+    4. Text extraction successful to landbase_cert_3.jpg - The text extraction process from the document (landbase_cert_3.jpg) was successful.
+
+    Processing Result
+    - Processing Successful! - The document processing was completed successfully, and the extracted text in json file is ready for insert 
