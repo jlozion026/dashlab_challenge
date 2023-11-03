@@ -136,4 +136,61 @@ This is our home screen, it has four buttons. Button for uploading a single file
 
     ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/145285a8-8aa8-4a6d-bf16-5b1d916b1aa1)
 
+### Insert Data to CSV
+11. In the home screen there is a `insert data` button. The purpose of this button was to actually use the json data extracted from processing the document, convert it to a dataframe, and then insert it to a dedicated csv file for storage. 
+
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/9e023171-0c05-4be2-bac2-be05e1ea7822)
+
+12. After click the `insert data` button, a window will pop up telling the result of insertion
+    
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/108fcaf7-40ab-456f-ae7b-9c7bb9d51271)
+
+13. When you clicked the `insert data` button data again, a new message will show telling No dataframes to concatenate. Upload a form. This is just common since we successfully inserted the data in csv and the json files are move to new folder.
+
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/48eb4439-ad46-4347-be87-ee0d16d88f2a)
+
+
+### Viewing of CSV
+14. To view the stored data, simply click the `View CSV` button.
+    
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/802f3e6a-904c-4360-9a60-c4a515654035)
+
+15. After clicking the `View CSV` button, a new window will pop up displaying different buttons dedicated for each form.
+    
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/56921244-dd4b-422f-86ab-b2399d00afc8)
+
+16. As an example, let us view the `Medical Examination Report for Overseas Workers`.
+
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/35f9dc92-a0b2-4d78-b646-6f7ca2fdf138)
+
+17. It will automatically open the csv file holding the extracted data. You can edit and fix the wrongly extracted data
+
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/aeca90d1-af3e-4898-8437-d3750b83ef03)
+
+### ZIP and Encrypt All CSV Files
+
+18. Click the button `ZIP and Encrypt All CSV Files`.
+
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/12044b76-19f8-4cc3-a13a-d70bb22c3edd)
+
+19. After clicking the `ZIP and Encrypt All CSV Files` a pop up will show asking you to enter the name of your zip file.
+
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/e997fb86-88ad-478a-b308-99e7a9b9d3f0)
+
+20. After entering your name a pop up will show asking you to add a password to your zip file
+ 
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/974eda9b-9506-4568-ae1a-83f1fbdd4d6a)
+
+21. After setting the password a filedialog will pop up. This will help you navigate where to put your zip file
+
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/151d5bbf-4d36-4250-8555-9ed8031db1c9)
+
+22. You can now access the downloaded zipped file. Note that use winrar to open and extract the files.
+
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/c37a3429-9741-4ca4-9522-e3af1d47636a)
+
+    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/6bc3ebf4-e81a-4a14-af71-20831e93af44)
+
+
+
     
