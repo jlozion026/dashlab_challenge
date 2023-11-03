@@ -70,7 +70,7 @@ This is our home screen, it has four buttons. Button for uploading a single file
 
    This button will start to process document
 
-6. During the processing document, a print diagnostic will be shown.
+6. During the processing of document, a print diagnostic will be shown.
    ![image](https://github.com/jlozion026/dashlab_challenge/assets/82523427/2ff4c622-e91a-4ce4-93b6-81f2b6190192)
   
    File Information
