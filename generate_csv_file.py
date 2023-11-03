@@ -150,7 +150,7 @@ def generate_csv_files(entry_1):
                         "perseverance","obedience","self discipline", "enthusiasm", "initiative"
                     ]
                     emotional_stability = [
-                        "can withstand boredom and work alone", "tolerance to stress pressures and inconveniences", "faces reality"
+                        "can withstand boredom and work alone", "tolerance to stress pressures and inconveniences", "faces reality", "confidence", "relaxed"
                     ]
                     objectivity = [
                         "tough mindedness", "adaptability", "practicality"
