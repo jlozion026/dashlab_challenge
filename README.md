@@ -1,10 +1,8 @@
 # MediScanFlow
 
-___
-
 MediScanFlow is an application seamlessly integrates Optical Character Recognition (OCR) to automate the classification, extraction, transformation, and loading of Department of Health (DOH) medical forms data directly into a Spreadsheet.
 
-___
+## What does the project do?
 
 1. **Integration of Optical Character Recognition (OCR):** The application incorporates Azure AI Document Intelligence OCR technology, enabling the recognition and interpretation of text from images or scanned documents.
 
@@ -15,6 +13,17 @@ ___
 4. **Export to a Spreadsheet File:** The end result of the processing is the creation of a spreadsheet file, indicating that the extracted and transformed data is organized and presented in a spreadsheet format.
 
 [Promotional Video](https://drive.google.com/file/d/1VBecVfg7D0_4d54JzKVc0DUHnH0Ug2tc/view?fbclid=IwAR3ZfMSBZ1hW_8s1w0SsnonisSK9tLXL2aNKdq3AJspugkFBwAvmKdU0boM)
+
+
+## Motivation
+
+Our project was created to compete with an "AI and Machine Learning," aiming to create a smart program that can quickly gather information from medical forms.
+
+**Time-Efficiency:** Automation minimizes manual data entry efforts, swiftly processing large volumes of medical forms for heightened operational efficiency.
+
+**Enhanced Accessibility:** Digitally organizing and storing extracted data facilitates easy analysis, reporting, and integration with other systems, improving overall healthcare information accessibility and usability.
+
+**Enhanced Focus:** Automating routine tasks allows healthcare professionals to redirect efforts towards value-added activities like patient care, research, and decision-making.
 ___
 
 ## Getting Started
