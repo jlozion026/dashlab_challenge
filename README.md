@@ -1,5 +1,5 @@
-# Medical Forms Analyzer
- A program that automatically scans and extract information from the doh medical forms and records submitted by users
+# MediScanFlow
+Our application seamlessly integrates Optical Character Recognition (OCR) to automate the classification, extraction, transformation, and loading of Department of Health (DOH) medical forms data directly into a Spreadsheet.
 
 ## Getting Started
 To run this project locally, you'll need to set up a **virtual environment** and install the **required dependencies**. Follow the steps below to get started.
