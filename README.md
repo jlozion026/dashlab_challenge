@@ -17,7 +17,7 @@ MediScanFlow is an application seamlessly integrates Optical Character Recogniti
 
 ## Motivation
 
-Our project was created to compete with an "AI and Machine Learning," aiming to create a smart program that can quickly gather information from medical forms.
+Our project was created to compete with an "AI and Machine Learning Challenge," aiming to create a smart program that can quickly gather information from medical forms.
 
 **Time-Efficiency:** Automation minimizes manual data entry efforts, swiftly processing large volumes of medical forms for heightened operational efficiency.
 
