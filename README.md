@@ -1,5 +1,21 @@
 # MediScanFlow
-Our application seamlessly integrates Optical Character Recognition (OCR) to automate the classification, extraction, transformation, and loading of Department of Health (DOH) medical forms data directly into a Spreadsheet.
+
+___
+
+MediScanFlow is an application seamlessly integrates Optical Character Recognition (OCR) to automate the classification, extraction, transformation, and loading of Department of Health (DOH) medical forms data directly into a Spreadsheet.
+
+___
+
+1. **Integration of Optical Character Recognition (OCR):** The application incorporates Azure AI Document Intelligence OCR technology, enabling the recognition and interpretation of text from images or scanned documents.
+
+2. **Automated Classification, Extraction, Transformation, and Loading (ETL):** The application performs a series of automated tasks, including the classification of medical forms, extraction of relevant data, transformation of the data into a structured format, and loading it into a spreadsheet.
+
+3. **DOH Medical Forms:** The application specifically focuses on handling data from Department of Health (DOH) medical forms. It can classify various forms, including HIV Certificate Forms, Medical Certificate for Land-based Overseas Workers, Medical Certificate for Service at Sea, Medical Examination Report for Land-based Overseas Workers, Medical Examination Report for Seafarers, and Tabulated Psychological Evaluation Form.
+
+4. **Export to a Spreadsheet File:** The end result of the processing is the creation of a spreadsheet file, indicating that the extracted and transformed data is organized and presented in a spreadsheet format.
+
+[Promotional Video](https://drive.google.com/file/d/1VBecVfg7D0_4d54JzKVc0DUHnH0Ug2tc/view?fbclid=IwAR3ZfMSBZ1hW_8s1w0SsnonisSK9tLXL2aNKdq3AJspugkFBwAvmKdU0boM)
+___
 
 ## Getting Started
 To run this project locally, you'll need to set up a **virtual environment** and install the **required dependencies**. Follow the steps below to get started.
@@ -42,6 +58,8 @@ Simply run this in the root directory of your project.
 ```bash
 python main.py
 ```
+___
+
 ## How to use 
 In this section, you will see a demonstration of how to use the created application for Dashlabs. You can check this video or read through it. 
 [Promotional Video](https://drive.google.com/file/d/1VBecVfg7D0_4d54JzKVc0DUHnH0Ug2tc/view?fbclid=IwAR3ZfMSBZ1hW_8s1w0SsnonisSK9tLXL2aNKdq3AJspugkFBwAvmKdU0boM)
